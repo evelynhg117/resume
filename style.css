@@ -1,22 +1,36 @@
-img{
-  height: 170px;
-  width: 170px;
+.container {
+  display: flex;
 }
 
-table{
+img {
+  height: 150px;
+  width: 150px;
+  padding-top: 20px;
+}
+
+#contact {
+  flex: 1;
+  padding-left: 30px;
+}
+
+table {
   text-align: center;
   border-collapse: collapse;
 }
 
-th, td{
+th, td {
   border: 1px solid black;
   padding: 10px;
 }
 
-thead{
+thead {
   padding-bottom: 15px;
 }
 
-ul li{
+ul li {
   text-align: left;
+}
+
+footer {
+  text-align: center;
 }
